@@ -1,5 +1,3 @@
-/* Início Barra de navegação
-/* --------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +6,8 @@
 html {
     height: 100%;
 }
-body h1{
+body{
+    font-size: 12px;
     font-family: "NunitoBold";
 }
 hr{
@@ -44,7 +43,7 @@ hr{
 
 .navbar-nav li{
     margin: 0 2em 0 2em;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .navbar-nav li a{
@@ -105,6 +104,11 @@ hr{
     background-size: cover;
       
 }
+.title{
+    display: inline;
+    font-family: "NunitoBold";
+}
+
 .home h3{
     font-family: "Shadows Into Light Two";
     padding: 50px;
@@ -135,63 +139,32 @@ hr{
 
 /* Fim Home */
 
+.clientes,
+.servicos{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
 /* Inicio servicos */
-#servicos{
-    padding-top: 50px;
-    padding-bottom: 0px;
-}
 
-#servicos h1{
-    font-size: 48px;
-    font-weight: 56px;
-}
-
-.beneficios_titulos{
-    font-family: 'Shadows Into Light Two';
-    font-size: 30px;
-    line-height: 28px;
-    letter-spacing: 3px;
-    color: #000;
-    margin: 0 0 12px;
-}
-.beneficios{
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -.25px;
-    color: #575757;
-    margin: 0;
-}
-
-/* Fim servicos */
+/* fim servicos */
 
 
-/* Início clientes */
-#clientes{
-    padding-top: 50px;
-    padding-bottom: 0px;
-}
-#clientes h4{
-    padding: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-family: 'Shadows Into Light Two';
+.clientes .album{
+    border: 1px solid red;
 }
 
-#clientes img{
-    width: 100%;
+.album img{
+    border-radius: 50%;
+    padding-bottom: 1em;
+    /* border: 1px solid black; */
 }
-.cliente-card {
-    
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-  
-.cliente-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.411);
+.album figcaption{
+    font-size: 1.3em;
+    /* text-align: center; */
 }
 
-/* Fim clientes */
 
 /* Início sobre nós */
 #sobre-nos h5{
@@ -303,6 +276,9 @@ hr{
 /*Fim contato  */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    .home{
+       
+    }
     .margin-top{
         margin-top: 2em;
     }
@@ -310,7 +286,7 @@ hr{
    
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
     .home{
         background-position: 80% 20%;
     }
@@ -321,6 +297,7 @@ hr{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    
     .home{
         background-position: 50% 50%;
     }
