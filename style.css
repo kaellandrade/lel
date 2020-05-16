@@ -1,5 +1,10 @@
 /* Início Barra de navegação
 /* --------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html {
     height: 100%;
 }
@@ -12,7 +17,6 @@ hr{
 
 /* Incio barra de navegação
 -------------------------- */
-
 
 .navbar{
     -webkit-box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.521);
@@ -68,9 +72,12 @@ hr{
     src: url(font/Nunito-ExtraLight.ttf);
 }
 
+.navbar-toggler{
+    font-size: 2em !important;
+    border: transparent !important;
+}
 
-
-#home{
+.home{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom, #ffd32aff, #ffb701ff);
@@ -81,7 +88,7 @@ hr{
     background-size: cover;
       
 }
-#home h3{
+.home h3{
     font-family: "Shadows Into Light Two";
     padding: 50px;
     color: rgb(0, 0, 0);
@@ -90,7 +97,7 @@ hr{
 
 }
 
-#home p{
+.home p{
     font-family: "NunitoBold";
     font-size: 25px;
     letter-spacing: 0px;
@@ -100,7 +107,7 @@ hr{
     font-style: italic; 
 }
 
-#home cite{
+.home cite{
     font-family: "NunitoLight";
     color: #858185;
 }
@@ -235,45 +242,42 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.411);
 /* Fim sobre nós */
 
 /*Inicio contato  */
-
+.footer{
+    font-family: 'Shadows Into Light Two';
+    letter-spacing: 3px;
+    font-style: italic;
+    color: #fff;
+    background: black;
+}
 .footer-copyright{
     font-style: italic;
     font-size: 13px;
 } 
 
-footer{
-    font-family: 'Shadows Into Light Two';
-    letter-spacing: 3px;
-    font-style: italic;
-    color: #fff;
-    background: black;     
+.redes-sociais-rodape{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
 }
 
 
-.redes-sociais a{
+.redes-sociais-rodape li a{
+    padding: 0px 10px;
+    /* border: 1px solid blue; */
     color: rgb(167, 167, 167);
     font-size: 2em;
-    padding: 0 5px;
 }
 
-.redes-sociais a:hover{
-    color: rgb(137, 10, 255)
+.redes-sociais-rodape a:active,
+.redes-sociais-rodape a:hover{
+    color: rgb(255, 0, 221);
+    transition: 1s;
 }
 
 /*Fim contato  */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    #home{
-        /* width: 100%; */
-        /* height: 100vh; */
-        background-image: linear-gradient(to bottom, #ffd32aff, #ffb701ff);
-        /* background-image: url(img/wallpaper/background2.jpg); */
-        /* background-repeat: no-repeat; */
-        /* background-attachment: fixed; */
-        /* background-position: 50% 50%; */
-        /* background-size: cover; */
-          
-    }
+    
 }
    
 
