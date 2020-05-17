@@ -6,6 +6,7 @@
 html {
     height: 100%;
 }
+
 body{
     font-size: 12px;
     font-family: "NunitoBold";
@@ -14,9 +15,18 @@ hr{
     background-color: rgb(95, 95, 95);
 }
 
+
+/* font-family: 'Balsamiq Sans', cursive; */
+/* font-family: 'DM Mono', monospace; */
+
+/* Inicio Fontes */
+    /* title: balsamiq sans bold, subtile: balsamiq sans regular*/
+    /* paragraf DN mono */
+
+/* Fim fontes */
+
 /* Incio barra de navegação
 -------------------------- */
-
 .navbar{
     -webkit-box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.521);
     -moz-box-shadow: 0px 9px 12px -10px rgba(0,0,0,0.521);
@@ -37,24 +47,19 @@ hr{
     transition: 1s;
 }
 
-.navbar-nav li a{   
+.navbar-nav li a{ 
     text-align: center !important;
+    color: whitesmoke !important;  
+    font-family: 'Balsamiq Sans', cursive;
+
 }
 
 .navbar-nav li{
+    
     margin: 0 2em 0 2em;
     /* border: 1px solid yellow; */
 }
 
-.navbar-nav li a{
-    font-family: "Shadows Into Light Two";
-    text-transform: uppercase;
-    color: rgb(238, 238, 238) !important;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 1.5px;
-
-}
 
 .navbar-toggler{
     color: rgb(255, 255, 255) !important;
@@ -65,31 +70,24 @@ hr{
     text-shadow: 0px 0px 9px rgba(255, 255, 255, 0.651);
     transition: 1s;
 }
-
 /* Fim barra de navegação
 --------------- */
-
-/* Início Home */
-
-@font-face{
-    font-family: "Shadows Into Light Two";
-    src: url(font/ShadowsIntoLightTwo-Regular.ttf);
-}
-
-@font-face{
-    font-family: "NunitoBold";
-    src: url(font/Nunito-ExtraBold.ttf);
-}
-
-@font-face{
-    font-family: "NunitoLight";
-    src: url(font/Nunito-ExtraLight.ttf);
-}
 
 .navbar-toggler{
     font-size: 2em !important;
     border: transparent !important;
 }
+
+.title{
+    display: inline;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.subtitle{
+    font-family: 'Emilys Candy', cursive;
+}
+
+
+/* Inicio home */
 
 .home{
     width: 100%;
@@ -104,10 +102,6 @@ hr{
     background-size: cover;
       
 }
-.title{
-    display: inline;
-    font-family: "NunitoBold";
-}
 
 .home h3{
     font-family: "Shadows Into Light Two";
@@ -117,8 +111,7 @@ hr{
     letter-spacing: 2px;
 
 }
-
-.home p{
+.home cite{
     font-family: "NunitoBold";
     font-size: 25px;
     letter-spacing: 0px;
@@ -128,35 +121,32 @@ hr{
     font-style: italic; 
 }
 
-.home cite{
-    font-family: "NunitoLight";
-    color: #858185;
-}
-
 .control{
     color: rgb(0, 0, 0);
 }
-
 /* Fim Home */
 
+
+.sobre-nos,
+.home,
 .clientes,
 .servicos{
     margin-top: 3em;
-    margin-bottom: 3em;
     text-align: center;
 }
 
 /* Inicio servicos */
-
+.clientes figcaption,
+.servicos figcaption{
+    color: rgb(128, 128, 128);
+    font-family: 'Patua One', cursive;
+}
 /* fim servicos */
 
-
-.clientes .album{
-    border: 1px solid red;
-}
+/* Inicio Clientes */
 
 .album img{
-    border-radius: 50%;
+    border-radius: 15%;
     padding-bottom: 1em;
     /* border: 1px solid black; */
 }
@@ -164,20 +154,19 @@ hr{
     font-size: 1.3em;
     /* text-align: center; */
 }
+/* fim clientes */
 
 
 /* Início sobre nós */
-#sobre-nos h5{
+.sobre-nos h5{
     font-family: 'Shadows Into Light Two';
     color: rgb(44, 44, 44);
 }
 
-#sobre-nos{
-    background-image: linear-gradient(to bottom, rgba(223, 223, 223, 0.096), rgba(71, 71, 71, 0.041));
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+.sobre-nos{
+    background-image: linear-gradient(to bottom, rgba(223, 223, 223, 0.048), rgb(0, 0, 0));
 }
+/* fim sobre nos */
 
 /* ---------Inicio card------------- */
 .profile-card-2 .card-img-block{
@@ -207,8 +196,9 @@ hr{
     color:#000000;
 }
 .profile-card-2 .card-text{
-    font-weight:300px;
-    font-size:15px;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Patua One', cursive;
+    font-size: 1em;
 }
 .profile-card-2 .icon-block{
     float:left;
@@ -276,9 +266,6 @@ hr{
 /*Fim contato  */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    .home{
-       
-    }
     .margin-top{
         margin-top: 2em;
     }
