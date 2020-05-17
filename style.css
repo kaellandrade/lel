@@ -30,6 +30,18 @@ hr{
 .navbar-brand img{
     width: 45px !important;
 }
+.logoname{
+    display: inline-block;
+    color: #1a6fb0;
+}
+
+.logoname h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
 
 .navbar-brand img:active,
 .navbar-brand img:hover{
@@ -83,7 +95,6 @@ hr{
     background-repeat: no-repeat;
     background-attachment: fixed; /*Efeito paralax*/
     background-position: 80% 20%;
-
     /* background-position: 50% 50%; */
     background-size: cover;
       
