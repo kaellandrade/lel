@@ -81,6 +81,11 @@ hr{
     margin-bottom: 0.5em;
     font-family: 'Balsamiq Sans', cursive;
 }
+
+.footer .title {
+    text-transform: capitalize;
+    color: whitesmoke;
+}
 .subtitle{
     font-family: 'Emilys Candy', cursive;
 }
