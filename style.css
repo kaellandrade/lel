@@ -249,7 +249,9 @@ hr{
     color: rgb(167, 167, 167);
     font-size: 2em;
 }
-
+.desenvolvedor{
+    color: rgba(233, 233, 233, 0.74);
+}
 .redes-sociais-rodape a:active,
 .redes-sociais-rodape a:hover{
     text-shadow: 0px 6px 10px rgba(4, 0, 255, 0.575);
