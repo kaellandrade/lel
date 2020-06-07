@@ -1,9 +1,9 @@
-# Referências
+# Referências 🖇️
 - [Font Awesome](https://fontawesome.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Ourownthing](http://ourownthing.co.uk/gradpad.html#)
 - [Google Fonts](https://fonts.google.com/)
-## Serviços Imagens
+## Serviços Imagens 🖼️
 
 - [Pexels](https://www.pexels.com/pt-br/procurar/fotografo/)
 
